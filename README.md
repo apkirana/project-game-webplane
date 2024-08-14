@@ -4,6 +4,13 @@
 
 This project is a simple HTML game where you control a plane to collect stars. The game is built using HTML, CSS, and JavaScript, and provides an engaging way to demonstrate basic game development concepts.
 
+
+## Demo
+
+![Demo Animation](https://github.com/apkirana/project-game-webplane/blob/main/demo%20game.gif)
+
+
+This GIF demonstrates how the application works.
 ## How to Play
 
 - Use the arrow keys to move the plane:
