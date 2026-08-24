@@ -2,24 +2,48 @@
 
 ## Overview
 
-This project is a simple HTML game where you control a plane to collect stars. The game is built using HTML, CSS, and JavaScript, and provides an engaging way to demonstrate basic game development concepts.
+A browser game in plain HTML, CSS and JavaScript: steer a plane with the arrow keys and collect stars
+for points.
+
+Written as **teaching material for an introductory web-programming class**. A game is a useful first
+project because it forces students to meet the event loop, keyboard event handling, collision detection
+and DOM state management in one small, immediately visible program — with no framework, no build step
+and no dependencies to install.
 
 
 ## Demo
 
-![Demo Animation](https://github.com/apkirana/project-game-webplane/blob/main/demo%20game.gif)
+![The plane moving around the play area collecting stars](https://raw.githubusercontent.com/apkirana/project-game-webplane/main/demo%20game.gif)
 
 
-This GIF demonstrates how the application works.
-## How to Play
+## How to play
 
 - Use the arrow keys to move the plane:
   - **Arrow Up**: Move up
   - **Arrow Down**: Move down
   - **Arrow Left**: Move left
   - **Arrow Right**: Move right
-- Collect the stars to increase your score.
-- Click the "Restart" button to reset the game.
+- Collect the stars to increase your score
+- Click **Restart** to reset the game
+
+## Running it
+
+No build step and no dependencies — clone and open `index.html` in a browser:
+
+```bash
+git clone https://github.com/apkirana/project-game-webplane.git
+cd project-game-webplane
+open index.html          # Linux: xdg-open index.html
+```
+
+## Concepts it demonstrates
+
+| Concept | Where |
+| --- | --- |
+| Keyboard event handling | `keydown` listeners mapping arrow keys to movement in `game.js` |
+| Game loop and state | Position and score held in JavaScript state, redrawn each frame |
+| Collision detection | Bounding-box overlap between plane and star |
+| DOM manipulation | Score display and restart handling without any framework |
 
 ## Project Structure
 
@@ -62,12 +86,14 @@ Contributions to improve the game are welcome. Please fork the repository and su
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
+---
 
-## Contact
-- **Project Link**: [Air Quality Analysis on GitHub](https://github.com/apkirana/air-quality-analysis)
-- **LinkedIn:** [Annisa Puspa Kirana](https://id.linkedin.com/in/annisapuspakirana/en)
-- **Social Links:** [linktr.ee/puspakirana](http://linktr.ee/puspakirana)
+## Author
 
-## About
+**Annisa Puspa Kirana** — PhD researcher, Faculty of Geo-Information Science and Earth Observation (ITC),
+University of Twente. Research on agentic AI and LLM-driven workflows for Earth observation.
 
-This project is a simple demonstration of creating an interactive game using basic web technologies. It is intended for educational purposes and to serve as a foundation for further development.
+[Google Scholar](https://scholar.google.com/citations?user=BQl6KOsAAAAJ&hl=en) ·
+[ORCID](https://orcid.org/0000-0002-4622-1445) ·
+[LinkedIn](https://www.linkedin.com/in/annisapuspakirana) ·
+[GitHub](https://github.com/apkirana)
